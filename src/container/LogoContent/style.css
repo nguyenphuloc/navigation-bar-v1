@@ -1,0 +1,39 @@
+.logo_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.logo_content .logo {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 6px 0px;
+    margin-left: 30px;
+    height: 21px;
+    background: #b3b3ff;
+    z-index: 99;
+    transition: all 1s ease;
+    overflow: hidden;
+}
+
+.logo_content .btn {
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid #cdd2d6;
+    box-sizing: border-box;
+    color: #000000;
+    display: flex;
+    letter-spacing: 2px;
+    padding: .8em 1em;
+    transition: all .3s ease;
+}
+
+.btn {
+    border: 0;
+    padding: 0;
+}

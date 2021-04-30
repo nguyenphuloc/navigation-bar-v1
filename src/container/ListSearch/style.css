@@ -1,0 +1,13 @@
+.listSearch {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.listSearchIcon {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 9px;
+}
